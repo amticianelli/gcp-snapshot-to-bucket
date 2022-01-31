@@ -69,7 +69,7 @@ gs://disksnapshot/mongoshard/
 
 ## Restoring the snapshot
 
-    - The following command will import the file exported back to the image management from GCP:
+    - The following command will import the file exported back to GCP's image management:
 
 ``` shell
 
