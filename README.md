@@ -67,7 +67,7 @@ gs://disksnapshot/mongodb/
 gs://disksnapshot/mongoshard/
 ```
 
-## Restore test
+## Restoring the snapshot
 
     - The following command will import the file exported back to the image management from GCP:
 
@@ -79,7 +79,7 @@ gcloud compute images import image-import-test \
     --zone us-east1-b \
     --network projects/gglobo-network-hdg-spk-devqa/global/networks/vpc-hdg-devqa \
     --subnet projects/gglobo-network-hdg-spk-devqa/regions/us-east1/subnetworks/us-east1-gglobo-dbaaslab-dev-qa \
-	--no-address \
-	--data-disk
+    --no-address \
+    --data-disk
 
 ```
